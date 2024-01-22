@@ -5,6 +5,7 @@ import { useState } from 'react';
 import UserComponent1 from './Usercomponent1';
 import UserComponent2 from './Usercomponent2';
 
+
 const Home = () => {
   const [blogs] = useState([
     { title: 'My new website', body: 'alajo...', author: 'Solomon', id: 1 },
@@ -31,6 +32,7 @@ const Home = () => {
      <div><UserComponent1 /></div> 
       <br/>
       <div><UserComponent2 /></div>
+    
       
     </div>
   );

@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+
 /* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #050505;
+  color: #5f6ef3;
+}
+.background{
+background: linear-gradient(to right #2ee096,left rgb(130, 219, 79));
 }
 .navbar {
   padding: 15px;
@@ -13,10 +17,10 @@
   max-width: 100%;
   margin:  auto;
   border-bottom: 1px solid #520606;
-  background-color: rgb(13, 14, 14);
+  background-color: rgb(66, 66, 66);
 }
 .navbar h1 {
-  color: hsl(0, 94%, 52%);
+  color: hsl(5, 94%, 52%);
 }
 .navbar .links {
   margin-left: auto;
